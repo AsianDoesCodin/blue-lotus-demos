@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>SPACES Real Estate — Homes for sale in Birmingham, Alabama</title>
+  <meta name="description" content="Demo website by Blue Lotus Coding: SPACES, a fictional real estate brokerage with home search, listing pages, saved homes and viewing requests.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230d0d0b'/%3E%3Cpath d='M14 34 32 18l18 16v14H14z' fill='none' stroke='%23c9a96a' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#0d0d0b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../shared/kit.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="skip" data-action="skip-to-content">Skip to content</button>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#/" aria-label="SPACES Real Estate home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 16 16 6l11 10v11H5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M13 27v-7h6v7" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>
+        <span>SPACES<small>Real Estate</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="#/buy" data-nav="/buy">Buy</a>
+        <a href="#/sell" data-nav="/sell">Sell</a>
+        <a href="#/agents" data-nav="/agents">Agents</a>
+      </nav>
+      <div class="header-actions">
+        <a class="saved-link" href="#/saved" data-nav="/saved">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.1A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.8c0 5.5-7.5 10.1-7.5 10.1z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></svg>
+          Saved <span class="count" id="saved-count" hidden></span>
+        </a>
+        <a class="btn btn-primary header-cta" href="#/sell">Get a valuation</a>
+      </div>
+      <button class="menu-toggle" data-action="menu" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+      <a href="#/buy">Buy a home</a>
+      <a href="#/sell">Sell your home</a>
+      <a href="#/agents">Our agents</a>
+      <a href="#/saved">Saved homes</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="logo" href="#/" aria-label="SPACES Real Estate home">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 16 16 6l11 10v11H5z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M13 27v-7h6v7" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>
+          <span>SPACES<small>Real Estate</small></span>
+        </a>
+        <p>A local brokerage helping people buy and sell homes across Birmingham, the Over the Mountain suburbs and Lake Martin.</p>
+      </div>
+      <div>
+        <h2>Buy</h2>
+        <a href="#/buy">All homes for sale</a>
+        <a href="#/buy?area=Mountain%20Brook">Mountain Brook</a>
+        <a href="#/buy?area=Homewood">Homewood</a>
+        <a href="#/buy?area=Lake%20Martin">Lake Martin</a>
+      </div>
+      <div>
+        <h2>Sell</h2>
+        <a href="#/sell">Free home valuation</a>
+        <a href="#/agents">Talk to an agent</a>
+        <a href="#/saved">Saved homes</a>
+      </div>
+      <div>
+        <h2>Office</h2>
+        <p>Birmingham, Alabama<br>Mon–Sat 9 AM–6 PM<br>(205) 555-0130</p>
+      </div>
+    </div>
+    <div class="wrap footer-base"><span>© 2026 SPACES Real Estate — demo website. Listings, prices and agents are fictional.</span><span>Equal Housing Opportunity</span></div>
+  </footer>
+
+  <script src="../shared/kit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

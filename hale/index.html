@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Hale &amp; Whitaker — Attorneys at Law in Birmingham, Alabama</title>
+  <meta name="description" content="Demo website by Blue Lotus Coding: Hale &amp; Whitaker, a fictional Birmingham, Alabama law firm with practice area guides and a free online case evaluation with consultation booking.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2316302b'/%3E%3Crect x='6' y='6' width='52' height='52' fill='none' stroke='%23b08d57' stroke-width='1.5'/%3E%3Crect x='9' y='9' width='46' height='46' fill='none' stroke='%23b08d57' stroke-width='.75'/%3E%3Cpath d='M21 19v26M43 19v26M21 32h22' stroke='%23f6f1e7' stroke-width='3.2'/%3E%3Cpath d='M17 19h8M39 19h8M17 45h8M39 45h8' stroke='%23f6f1e7' stroke-width='2'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#16302b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,300..700;1,400&display=swap">
+  <link rel="stylesheet" href="../shared/kit.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="skip" data-action="skip-to-content">Skip to content</button>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#/" aria-label="Hale and Whitaker, Attorneys at Law, home">
+        <span class="wm-name">Hale <i>&amp;</i> Whitaker</span>
+        <span class="wm-sub">Attorneys at Law</span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="#/practice" data-nav="/practice">Practice Areas</a>
+        <a href="#/attorneys" data-nav="/attorneys">Attorneys</a>
+        <a href="#/results" data-nav="/results">Results</a>
+        <a href="#/fees" data-nav="/fees">Fees</a>
+        <a href="#/contact" data-nav="/contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+12055550132"><small>Call us</small>(205) 555-0132</a>
+        <a class="btn btn-primary btn-sm header-cta" href="#/evaluate">Free case evaluation</a>
+      </div>
+      <a class="header-call" href="tel:+12055550132" aria-label="Call (205) 555-0132">Call</a>
+      <button class="menu-toggle" data-action="menu" aria-expanded="false" aria-controls="mobile-nav"><span class="menu-icon" aria-hidden="true"></span><span class="menu-text">Menu</span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+      <div class="wrap">
+        <a class="m-link" href="#/practice">Practice Areas</a>
+        <a class="m-link" href="#/attorneys">Attorneys</a>
+        <a class="m-link" href="#/results">Results</a>
+        <a class="m-link" href="#/fees">Fees</a>
+        <a class="m-link" href="#/contact">Contact</a>
+        <a class="btn btn-primary" href="#/evaluate">Free case evaluation</a>
+        <a class="m-phone" href="tel:+12055550132">(205) 555-0132 <span>Mon–Fri 8:30 AM–5:30 PM</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="wordmark on-dark" href="#/"><span class="wm-name">Hale <i>&amp;</i> Whitaker</span><span class="wm-sub">Attorneys at Law · Est. 1998</span></a>
+          <p>Personal injury, workers’ compensation, family law and estate planning for Birmingham and central Alabama.</p>
+          <a class="footer-phone" href="tel:+12055550132">(205) 555-0132</a>
+        </div>
+        <div class="footer-col">
+          <h2>Office</h2>
+          <p>Second Avenue North, Suite 400<br>Birmingham, AL 35203</p>
+          <p>Monday–Friday<br>8:30 AM–5:30 PM</p>
+          <p class="footer-muted">After-hours callback for new injury cases.</p>
+        </div>
+        <div class="footer-col">
+          <h2>Practice areas</h2>
+          <a href="#/practice/personal-injury">Personal injury</a>
+          <a href="#/practice/workers-compensation">Workers’ compensation</a>
+          <a href="#/practice/family-law">Family law</a>
+          <a href="#/practice/estate-planning">Estate planning &amp; probate</a>
+        </div>
+        <div class="footer-col">
+          <h2>The firm</h2>
+          <a href="#/attorneys">Attorneys</a>
+          <a href="#/results">Sample results</a>
+          <a href="#/fees">Fees</a>
+          <a href="#/contact">Contact</a>
+          <a href="#/evaluate">Free case evaluation</a>
+        </div>
+      </div>
+      <div class="notices" role="note" aria-label="Required notices">
+        <p><strong>Attorney advertising.</strong></p>
+        <p>No representation is made that the quality of legal services to be performed is greater than the quality of legal services performed by other lawyers.</p>
+        <p>Past results do not guarantee a similar outcome.</p>
+        <p>Information on this site is not legal advice. Contacting us does not create an attorney-client relationship.</p>
+      </div>
+      <div class="footer-base">
+        <span>© 2026 Hale &amp; Whitaker — demo website. Sample results and testimonials are fictional.</span>
+        <span>Photos are AI-generated for this demo.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../shared/kit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

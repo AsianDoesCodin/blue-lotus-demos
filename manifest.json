@@ -1,0 +1,109 @@
+{
+  "client": "Blue Lotus Coding",
+  "title": "Websites you can actually use.",
+  "intro": "Ten complete, clickable demos, each in its own design style: websites for seven kinds of business, plus a custom web app, a business automation hub and an AI assistant with custom skills. Every business, person, price and address is fictional; photos were generated with AI, and the AI answers are scripted examples.",
+  "lang": "en",
+  "accent": "#3a63f2",
+  "concepts": [
+    {
+      "name": "FORM",
+      "description": "Renovation and interiors studio in a bold industrial style: condensed capitals, hard edges and a safety-yellow accent, with a three-step estimate as the one clear next step.",
+      "tags": [
+        "Service business",
+        "Lead generation",
+        "Bold industrial"
+      ],
+      "file": "form/index.html"
+    },
+    {
+      "name": "COMMON",
+      "description": "Ceramics, linen and glass store in a modern editorial style: a magazine-style cover, a big italic serif and hairline product grids, with a slide-out bag, free-shipping bar and three-step demo checkout.",
+      "tags": [
+        "E-commerce",
+        "Cart and checkout",
+        "Modern editorial"
+      ],
+      "file": "common/index.html"
+    },
+    {
+      "name": "STUDIO",
+      "description": "Yoga and breathwork studio in a soft organic style: cream, sage and blush with rounded arches. Built around a live two-week schedule with booking, class packs, rescheduling and cancellation.",
+      "tags": [
+        "Bookings",
+        "Memberships",
+        "Soft organic"
+      ],
+      "file": "studio/index.html"
+    },
+    {
+      "name": "SPACES",
+      "description": "Real estate brokerage in a dark luxury style: black, ivory and gold. Home search with filters and saved homes, listing pages with a photo lightbox, payment calculator and viewing requests, plus an instant valuation.",
+      "tags": [
+        "Listings",
+        "Lead capture",
+        "Dark luxury"
+      ],
+      "file": "spaces/index.html"
+    },
+    {
+      "name": "Luna",
+      "description": "Taquería with online ordering in a bold, playful style: chunky Bricolage Grotesque, chili red, cream and marigold. Menu with dish customization, a cart with ZIP-checked delivery, fees, tax and tip, a demo checkout and live order tracking, plus catering quotes.",
+      "tags": [
+        "Food ordering",
+        "Delivery and pickup",
+        "Bold playful"
+      ],
+      "file": "luna/index.html"
+    },
+    {
+      "name": "Hale & Whitaker",
+      "description": "Law firm in a classic, authoritative style: Libre Caslon, forest green, parchment and brass. Practice area pages, attorney bios, sample results with disclaimers, a contingency fee estimator and a multi-step free case evaluation that books a consultation.",
+      "tags": [
+        "Professional services",
+        "Legal intake",
+        "Classic authority"
+      ],
+      "file": "hale/index.html"
+    },
+    {
+      "name": "Ironwood",
+      "description": "Plumbing and HVAC company in a rugged, friendly style: Rubik, navy, service blue and safety orange. Service-area check, five-step booking with arrival windows, upfront price estimator, membership, emergency guide and a live technician tracker.",
+      "tags": [
+        "Home services",
+        "Booking",
+        "Rugged friendly"
+      ],
+      "file": "ironwood/index.html"
+    },
+    {
+      "name": "Workbench",
+      "description": "Project management web app in a crisp product style: zinc, black and violet, light and dark mode. Dashboard, drag-and-drop board, task details with checklists and comments, file uploads and settings.",
+      "tags": [
+        "Web app",
+        "Kanban",
+        "Crisp product UI"
+      ],
+      "file": "workbench/index.html"
+    },
+    {
+      "name": "RELAY",
+      "description": "Business automation hub for a service company in a technical console style: black and electric lime. Automation flows as node graphs with test runs, streaming logs and output previews, editable templates, run history and an ROI calculator. Runs are simulated; nothing is sent.",
+      "tags": [
+        "Business automation",
+        "Custom software",
+        "Technical console"
+      ],
+      "file": "relay/index.html"
+    },
+    {
+      "name": "Skillset",
+      "description": "Side-by-side comparison of a generic AI and an AI with a business’s own skills, in an airy aurora glass style. Presets for three businesses, skill toggles that change the answer, citations and action cards. All responses are scripted; no AI model runs on the page.",
+      "tags": [
+        "AI automation",
+        "Custom skills",
+        "Aurora glass"
+      ],
+      "file": "skillset/index.html"
+    }
+  ]
+}

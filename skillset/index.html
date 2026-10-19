@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>SKILLSET — Generic AI vs. AI with your skills</title>
+  <meta name="description" content="Demo app by Blue Lotus Coding: SKILLSET, a scripted side-by-side that shows how an AI assistant built on a business's own skills answers customers compared with a generic chatbot.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23c9b6ff'/%3E%3Cstop offset='.5' stop-color='%23d46bff'/%3E%3Cstop offset='1' stop-color='%23bfe3ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='18' fill='url(%23g)'/%3E%3Cpath d='M32 12l4.8 15.2L52 32l-15.2 4.8L32 52l-4.8-15.2L12 32l15.2-4.8z' fill='%23fff'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#fbfaff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Sora:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../shared/kit.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <button class="skip" data-action="skip-to-content">Skip to content</button>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#/" aria-label="SKILLSET home"><span class="orb" aria-hidden="true"></span>SKILLSET</a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="#/" data-nav="/">Compare</a>
+        <a href="#/try" data-nav="/try">Try your own</a>
+        <a href="#/how" data-nav="/how">How it works</a>
+      </nav>
+      <a class="btn btn-primary btn-sm header-cta" href="https://bluelotuscoding.com/contact" target="_blank" rel="noopener noreferrer">Start a project</a>
+      <button class="menu-toggle" data-action="menu" aria-expanded="false" aria-controls="mobile-nav"><span class="menu-bars" aria-hidden="true"></span>Menu</button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+      <a href="#/">Compare</a>
+      <a href="#/try">Try your own</a>
+      <a href="#/how">How it works</a>
+      <a class="btn btn-primary" href="https://bluelotuscoding.com/contact" target="_blank" rel="noopener noreferrer">Start a project</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-note">
+      <p><strong>Scripted example</strong> — every response on this site is pre-written to illustrate the difference; no AI model runs on this page. Holds, quotes and consultation requests are demo actions: nothing is booked, sent or charged.</p>
+    </div>
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="wordmark" href="#/"><span class="orb" aria-hidden="true"></span>SKILLSET</a>
+        <p>A side-by-side look at what changes when an AI assistant runs on a business’s own skills instead of guessing.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <a href="#/">Compare answers</a>
+        <a href="#/try">Try your own question</a>
+        <a href="#/how">How it works</a>
+      </div>
+      <div>
+        <h2>The demo businesses</h2>
+        <a href="../ironwood/" target="_blank" rel="noopener">Ironwood Plumbing &amp; Air <span aria-hidden="true">↗</span></a>
+        <a href="../hale/" target="_blank" rel="noopener">Hale &amp; Whitaker <span aria-hidden="true">↗</span></a>
+        <a href="../luna/" target="_blank" rel="noopener">Luna Taquería <span aria-hidden="true">↗</span></a>
+      </div>
+      <div>
+        <h2>Blue Lotus Coding</h2>
+        <p>Websites, custom web apps and AI automation for small businesses.</p>
+        <a href="https://bluelotuscoding.com/contact" target="_blank" rel="noopener noreferrer">Start a project <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="wrap footer-base"><span>© 2026 Blue Lotus Coding · SKILLSET demo app</span><span>Ironwood Plumbing &amp; Air, Hale &amp; Whitaker and Luna Taquería are fictional businesses.</span></div>
+  </footer>
+
+  <script src="../shared/kit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

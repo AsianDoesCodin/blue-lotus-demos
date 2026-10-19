@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo websites — Blue Lotus Coding</title>
+  <meta name="description" content="Try ten working demos by Blue Lotus Coding: websites for a renovation studio, a home goods store, a yoga studio, a real estate brokerage, a taquería, a law firm and a plumbing company, plus a project app, a business automation hub and an AI assistant with custom skills.">
+  <link rel="canonical" href="https://demo.bluelotuscoding.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Blue Lotus Coding">
+  <meta property="og:title" content="Demo websites — Blue Lotus Coding">
+  <meta property="og:description" content="Ten working demos you can click through: food ordering, service booking, a legal intake, checkout, class bookings, home listings, a project board, business automations and AI with custom skills.">
+  <meta property="og:url" content="https://demo.bluelotuscoding.com/">
+  <meta property="og:image" content="https://demo.bluelotuscoding.com/shared/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#070d1c">
+  <link rel="icon" href="shared/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="shared/apple-touch-icon.png">
+  <link rel="preload" href="shared/fonts/manrope-semibold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,800&family=Bodoni+Moda:opsz,wght@6..96,500&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,800&family=Fraunces:ital,opsz,wght@1,9..144,500&family=Geist:wght@600&family=Instrument+Serif&family=Libre+Caslon+Text&family=Rubik:wght@800&family=Sora:wght@600&family=Space+Grotesk:wght@700&display=swap&text=FORMCOMNSPACEWorkbenchstudioLunaHale%26WitkrIwdRLYSl">
+  <script>
+    // Entrance animations start hidden; if the gallery script never runs, show everything anyway.
+    if (matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+      document.documentElement.classList.add('js-motion');
+      setTimeout(() => { if (!window.slidesReady) document.documentElement.classList.remove('js-motion'); }, 2500);
+    }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#demos">Skip to the demos</a>
+  <div class="g-ambient" aria-hidden="true"><i></i><i></i></div>
+  <div class="g-progress" aria-hidden="true"></div>
+  <nav class="g-rail" aria-label="Sections" hidden></nav>
+
+  <header class="g-header">
+    <div class="g-wrap g-header-inner">
+      <a class="g-brand" href="https://bluelotuscoding.com" aria-label="Blue Lotus Coding main website">
+        <span class="g-logo"><img src="shared/logo.webp" alt="" width="34" height="34"></span>
+        <span class="g-brand-text">Blue Lotus Coding<small>Demo sites</small></span>
+      </a>
+      <nav class="g-nav" aria-label="Page">
+        <a href="#demos">Demos</a>
+        <a href="#about">How it works</a>
+        <a href="https://bluelotuscoding.com">Main site</a>
+        <a class="g-btn g-btn-primary sm" href="https://bluelotuscoding.com/contact">Start a project</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="g-hero" id="top" data-slide data-label="Intro" data-reveal="self" style="--accent:#7f9dff" aria-labelledby="hero-title">
+    <img class="g-hero-img" src="shared/gallery-hero.webp" alt="" width="1536" height="1024" fetchpriority="high">
+    <div class="g-wrap g-hero-inner" data-reveal>
+      <p class="g-eyebrow">Live demos by Blue Lotus Coding</p>
+      <h1 id="hero-title" class="split">Websites you can <em>actually use.</em></h1>
+      <p class="g-lead">Ten clickable demos, each in its own design style: websites for seven kinds of business, plus custom software, automation and AI. Order tacos, book a plumber or compare AI answers, right here in the page.</p>
+      <div class="g-hero-actions">
+        <a class="g-btn g-btn-primary" href="#demos">Explore the demos</a>
+        <a class="g-btn g-btn-ghost" href="https://bluelotuscoding.com/contact">Talk about your project</a>
+      </div>
+      <div class="g-jump-groups" data-reveal style="--delay:520ms">
+        <div class="g-jump-group">
+          <p class="g-jump-label" id="jump-sites">Websites</p>
+          <ol class="g-jump" aria-labelledby="jump-sites">
+            <li><a href="#form"><span>01</span>FORM<small>Renovation</small></a></li>
+            <li><a href="#common"><span>02</span>COMMON<small>Online store</small></a></li>
+            <li><a href="#studio"><span>03</span>STUDIO<small>Class bookings</small></a></li>
+            <li><a href="#spaces"><span>04</span>SPACES<small>Real estate</small></a></li>
+            <li><a href="#luna"><span>05</span>Luna<small>Food ordering</small></a></li>
+            <li><a href="#hale"><span>06</span>Hale &amp; Whitaker<small>Law firm</small></a></li>
+            <li><a href="#ironwood"><span>07</span>Ironwood<small>Plumbing &amp; HVAC</small></a></li>
+          </ol>
+        </div>
+        <div class="g-jump-group">
+          <p class="g-jump-label" id="jump-software">Software &amp; AI</p>
+          <ol class="g-jump" start="8" aria-labelledby="jump-software">
+            <li><a href="#workbench"><span>08</span>Workbench<small>Web app</small></a></li>
+            <li><a href="#relay"><span>09</span>RELAY<small>Automation</small></a></li>
+            <li><a href="#skillset"><span>10</span>Skillset<small>AI with skills</small></a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <a class="g-scroll-cue" href="#demos" aria-label="Scroll to the demos"><span class="g-mouse" aria-hidden="true"></span>Scroll</a>
+  </section>
+
+  <main class="g-demos" id="demos" tabindex="-1" aria-labelledby="demos-title">
+    <div class="g-wrap">
+      <h2 class="visually-hidden" id="demos-title">The demos</h2>
+
+      <article class="demo" id="form" data-slide data-label="FORM" style="--accent:#ffc81a" data-name="FORM" data-kind="Renovation &amp; interiors studio" data-src="form/" aria-labelledby="form-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>01</span>Service business</p>
+          <h3 class="demo-name split" id="form-name">FORM</h3>
+          <p class="demo-kind">Renovation &amp; interiors studio</p>
+          <p class="demo-why">Bold and industrial, like a builder’s spec sheet: condensed capitals, hard edges and a safety-yellow accent. Finished rooms do the selling, and a three-step estimate is the one clear next step.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#121212"></i><i style="--c:#efede6"></i><i style="--c:#ffc81a"></i></span><span>Bold industrial<small>Archivo Condensed · ink, paper, yellow</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in FORM">
+            <li>Get a three-step project estimate</li>
+            <li>Filter past projects by room</li>
+            <li>Read a full project story</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="form/" target="_blank" rel="noopener">View website <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/form/</span>
+            <div class="seg" role="group" aria-label="FORM preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="FORM demo website" data-src="form/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore FORM</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="demo" id="common" data-slide data-label="COMMON" style="--accent:#e06a44" data-name="COMMON" data-kind="Home goods store" data-src="common/" aria-labelledby="common-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>02</span>E-commerce</p>
+          <h3 class="demo-name split" id="common-name">COMMON</h3>
+          <p class="demo-kind">Ceramics, linen &amp; glass store</p>
+          <p class="demo-why">A modern editorial shop: a magazine-style cover, a big italic serif and hairline product grids in white, ink and rust. A slide-out bag keeps shoppers browsing, and checkout is never more than three steps away.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#ffffff"></i><i style="--c:#151412"></i><i style="--c:#a9472a"></i></span><span>Modern editorial<small>Instrument Serif · white, ink, rust</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in COMMON">
+            <li>Pick a size or color and add to bag</li>
+            <li>Watch the free-shipping bar fill up</li>
+            <li>Place a demo order (no payment)</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="common/" target="_blank" rel="noopener">View website <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/common/</span>
+            <div class="seg" role="group" aria-label="COMMON preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="COMMON demo store" data-src="common/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore COMMON</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="demo" id="studio" data-slide data-label="STUDIO" style="--accent:#a3b78f" data-name="STUDIO" data-kind="Yoga &amp; breathwork studio" data-src="studio/" aria-labelledby="studio-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>03</span>Bookings</p>
+          <h3 class="demo-name split" id="studio-name">STUDIO</h3>
+          <p class="demo-kind">Yoga &amp; breathwork studio</p>
+          <p class="demo-why">Soft and organic: warm cream, sage and blush, rounded arches and a gentle serif. Built around the schedule, so members find the next open class in one tap and change plans without calling the front desk.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#f5efe6"></i><i style="--c:#6f7f5e"></i><i style="--c:#efcdbb"></i></span><span>Soft organic<small>Fraunces · cream, sage, blush</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in STUDIO">
+            <li>Book a class from the live two-week schedule</li>
+            <li>Buy a 10-class pack and use a credit</li>
+            <li>Reschedule or cancel from My bookings</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="studio/" target="_blank" rel="noopener">View website <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/studio/</span>
+            <div class="seg" role="group" aria-label="STUDIO preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="STUDIO demo booking website" data-src="studio/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore STUDIO</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="demo" id="spaces" data-slide data-label="SPACES" style="--accent:#d1b27a" data-name="SPACES" data-kind="Real estate brokerage" data-src="spaces/" aria-labelledby="spaces-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>04</span>Listings &amp; leads</p>
+          <h3 class="demo-name split" id="spaces-name">SPACES</h3>
+          <p class="demo-kind">Real estate brokerage</p>
+          <p class="demo-why">Dark luxury for high-end homes: black and ivory with gold details and a fashion-magazine serif. Buyers filter homes in seconds, then each listing sells itself with a full-screen gallery, a payment calculator and a quick viewing request.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#0d0d0b"></i><i style="--c:#f3eee4"></i><i style="--c:#c9a96a"></i></span><span>Dark luxury<small>Bodoni Moda · black, ivory, gold</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in SPACES">
+            <li>Search, filter and save homes</li>
+            <li>Open a listing's photo gallery</li>
+            <li>Get an instant home valuation</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="spaces/" target="_blank" rel="noopener">View website <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/spaces/</span>
+            <div class="seg" role="group" aria-label="SPACES preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="SPACES demo real estate website" data-src="spaces/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore SPACES</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="demo" id="luna" data-slide data-label="Luna" style="--accent:#ff6a4d" data-name="Luna" data-kind="Taquería with online ordering" data-src="luna/" aria-labelledby="luna-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>05</span>Food ordering</p>
+          <h3 class="demo-name split" id="luna-name">Luna</h3>
+          <p class="demo-kind">Taquería · delivery &amp; pickup</p>
+          <p class="demo-why">Bold and joyful, like a menu you want to eat: chunky Bricolage Grotesque, chili red and marigold, sticker badges and big food photography. Customize a dish, watch the cart do the math, then follow the order to the door.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#e5412d"></i><i style="--c:#fff4e6"></i><i style="--c:#ffb22e"></i><i style="--c:#1f4d3a"></i></span><span>Bold &amp; playful<small>Bricolage Grotesque · chili, cream, marigold</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in Luna">
+            <li>Customize tacos and add them to the order</li>
+            <li>Check delivery by ZIP and pick a tip</li>
+            <li>Place a demo order and track it live</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="luna/" target="_blank" rel="noopener">View website <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/luna/</span>
+            <div class="seg" role="group" aria-label="Luna preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="Luna demo website" data-src="luna/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore Luna</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="demo" id="hale" data-slide data-label="Hale &amp; Whitaker" style="--accent:#7cc4a0" data-name="Hale &amp; Whitaker" data-kind="Law firm" data-src="hale/" aria-labelledby="hale-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>06</span>Professional services</p>
+          <h3 class="demo-name split" id="hale-name">Hale &amp; Whitaker</h3>
+          <p class="demo-kind">Personal injury, family &amp; estate law firm</p>
+          <p class="demo-why">Quiet authority for a law firm: a Caslon serif, forest green, parchment and brass hairlines. Plain-English practice pages build trust, and a guided case evaluation turns a stressful moment into a booked consultation.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#16302b"></i><i style="--c:#f6f1e7"></i><i style="--c:#b08d57"></i></span><span>Classic authority<small>Libre Caslon · forest, parchment, brass</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in Hale &amp; Whitaker">
+            <li>Start a free case evaluation</li>
+            <li>Book a consultation with an attorney</li>
+            <li>Estimate a contingency fee</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="hale/" target="_blank" rel="noopener">View website <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/hale/</span>
+            <div class="seg" role="group" aria-label="Hale &amp; Whitaker preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="Hale &amp; Whitaker demo website" data-src="hale/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore Hale &amp; Whitaker</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="demo" id="ironwood" data-slide data-label="Ironwood" style="--accent:#4d94ff" data-name="Ironwood" data-kind="Plumbing &amp; HVAC company" data-src="ironwood/" aria-labelledby="ironwood-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>07</span>Home services</p>
+          <h3 class="demo-name split" id="ironwood-name">Ironwood</h3>
+          <p class="demo-kind">Plumbing, heating &amp; air company</p>
+          <p class="demo-why">Friendly and rugged for the trades: heavy Rubik type, navy and service blue, with safety orange for anything urgent. Every screen leads to one thing, book a visit or call now, with upfront prices before anyone rolls a truck.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#0d1b33"></i><i style="--c:#1f6fff"></i><i style="--c:#ff7a1a"></i></span><span>Rugged &amp; friendly<small>Rubik · navy, service blue, safety orange</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in Ironwood">
+            <li>Book a service visit in five steps</li>
+            <li>Track the technician on the way</li>
+            <li>Price a job with the estimator</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="ironwood/" target="_blank" rel="noopener">View website <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/ironwood/</span>
+            <div class="seg" role="group" aria-label="Ironwood preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="Ironwood demo website" data-src="ironwood/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore Ironwood</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="demo" id="workbench" data-slide data-label="Workbench" style="--accent:#a78bfa" data-name="Workbench" data-kind="Project management web app" data-src="workbench/" data-app aria-labelledby="workbench-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>08</span>Custom web app</p>
+          <h3 class="demo-name split" id="workbench-name">Workbench</h3>
+          <p class="demo-kind">Project management web app</p>
+          <p class="demo-why">Software, not just websites, in a crisp product style: neutral zinc, black actions, a violet accent and mono details, in light and dark mode. A dashboard, drag-and-drop board, task details and file uploads: the core of a real SaaS product.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#fafafa"></i><i style="--c:#18181b"></i><i style="--c:#7c3aed"></i></span><span>Crisp product UI<small>Geist · zinc, black, violet</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in Workbench">
+            <li>Drag a task to another column</li>
+            <li>Open a task and tick off its checklist</li>
+            <li>Press N to create a task, then try dark mode</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="workbench/" target="_blank" rel="noopener">View app <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/workbench/</span>
+            <div class="seg" role="group" aria-label="Workbench preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="Workbench demo web app" data-src="workbench/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore Workbench</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="demo" id="relay" data-slide data-label="RELAY" style="--accent:#c6ff3d" data-name="RELAY" data-kind="Business automation hub" data-src="relay/" data-app aria-labelledby="relay-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>09</span>Business automation</p>
+          <h3 class="demo-name split" id="relay-name">RELAY</h3>
+          <p class="demo-kind">Automation hub for a service business</p>
+          <p class="demo-why">Custom software for the back office, in a black and electric-lime ops console. The automations that run a plumbing company: text back missed calls, chase unpaid invoices, ask for reviews. Run a flow and watch every step fire.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#0b0d0c"></i><i style="--c:#c6ff3d"></i><i style="--c:#3dd6ff"></i></span><span>Technical console<small>Space Grotesk + JetBrains Mono · black, lime, cyan</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in RELAY">
+            <li>Run a test and watch each step fire</li>
+            <li>Edit a text template, then run it again</li>
+            <li>Estimate hours saved with the calculator</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="relay/" target="_blank" rel="noopener">View app <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/relay/</span>
+            <div class="seg" role="group" aria-label="RELAY preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="RELAY demo web app" data-src="relay/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore RELAY</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="demo" id="skillset" data-slide data-label="Skillset" style="--accent:#d46bff" data-name="Skillset" data-kind="AI with custom skills" data-src="skillset/" data-app aria-labelledby="skillset-name">
+        <div class="demo-info" data-reveal>
+          <p class="demo-num"><span>10</span>AI automation</p>
+          <h3 class="demo-name split" id="skillset-name">Skillset</h3>
+          <p class="demo-kind">Generic AI vs AI with your skills</p>
+          <p class="demo-why">Luminous glass and aurora color for an AI product. The same customer question goes to a generic chatbot and to an assistant that knows the business: its prices, schedule, policies and actions. The answers are scripted examples, and the difference is the pitch.</p>
+          <p class="demo-style"><span class="swatches" aria-hidden="true"><i style="--c:#fbfaff"></i><i style="--c:#c9b6ff"></i><i style="--c:#d46bff"></i></span><span>Airy aurora glass<small>Sora + DM Mono · white, lilac, fuchsia</small></span></p>
+          <ul class="demo-try" aria-label="Things to try in Skillset">
+            <li>Compare answers for three businesses</li>
+            <li>Switch a skill off and see what changes</li>
+            <li>Confirm a booking the assistant held</li>
+          </ul>
+          <div class="demo-actions">
+            <a class="g-btn g-btn-primary" href="skillset/" target="_blank" rel="noopener">View app <span aria-hidden="true">↗</span></a>
+            <button class="g-btn g-btn-ghost" type="button" data-fullscreen>Fullscreen</button>
+          </div>
+        </div>
+        <div class="demo-preview" data-reveal="self">
+          <div class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="url">demo.bluelotuscoding.com/skillset/</span>
+            <div class="seg" role="group" aria-label="Skillset preview size"><button type="button" data-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-view="mobile" aria-pressed="false">Mobile</button></div>
+          </div>
+          <div class="stage" data-view="desktop">
+            <div class="device" inert><iframe title="Skillset demo web app" data-src="skillset/" loading="lazy" sandbox="allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox" referrerpolicy="no-referrer"></iframe></div>
+            <button class="activate" type="button" data-activate><span>Click to explore Skillset</span></button>
+            <button class="deactivate" type="button" data-deactivate hidden>Done exploring</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <div class="g-end" id="about" data-slide data-label="Next steps" style="--accent:#7f9dff">
+  <section class="g-about" aria-labelledby="about-title">
+    <div class="g-wrap">
+      <div class="g-section-head" data-reveal>
+        <p class="g-eyebrow">From demo to your website</p>
+        <h2 id="about-title">Like one? Let’s make it yours.</h2>
+        <p>Each demo is a kind of project we build: business websites, online stores, booking experiences, real estate sites and custom web apps. Point to a design, a feature or both, and we shape it around your business.</p>
+      </div>
+      <ol class="g-steps" data-reveal>
+        <li><span class="g-step-num" aria-hidden="true">01</span><h3>Show us what you like</h3><p>A whole demo, one design style or a single feature. Mix them freely: the look of SPACES with the booking flow of STUDIO works fine.</p></li>
+        <li><span class="g-step-num" aria-hidden="true">02</span><h3>Shape it around your business</h3><p>We agree on the pages, features and customer journeys you need, and set a practical scope before the build.</p></li>
+        <li><span class="g-step-num" aria-hidden="true">03</span><h3>Design, build, refine</h3><p>Your brand, photos and words, plus the real connections your site needs, like bookings, payments and email. You review it as it comes together.</p></li>
+        <li><span class="g-step-num" aria-hidden="true">04</span><h3>Launch and keep improving</h3><p>We plan the launch together, along with website care, updates and what comes next.</p></li>
+      </ol>
+      <div class="g-cta" data-reveal>
+        <div><h2>Tell us which demo is closest.</h2><p>No complete brief needed. A demo you liked, an existing website or just an idea is enough to start.</p></div>
+        <div class="g-cta-actions">
+          <a class="g-btn g-btn-primary" href="https://bluelotuscoding.com/contact">Start a project</a>
+          <a class="g-btn g-btn-ghost" href="https://bluelotuscoding.com/services">See all services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="g-footer">
+    <div class="g-wrap g-footer-inner">
+      <span>© 2026 Blue Lotus Coding</span>
+      <span>Demo businesses and content are fictional · Images generated with AI</span>
+      <a href="https://bluelotuscoding.com">bluelotuscoding.com</a>
+    </div>
+  </footer>
+  </div>
+
+  <dialog class="fs" id="fs" aria-labelledby="fs-name">
+    <div class="fs-wipe" aria-hidden="true"></div>
+    <div class="fs-panel">
+    <div class="fs-bar">
+      <span class="fs-title"><strong class="fs-font" id="fs-name">Demo</strong><span id="fs-kind"></span></span>
+      <div class="seg" role="group" aria-label="Fullscreen preview size"><button type="button" data-fs-view="desktop" aria-pressed="true">Desktop</button><button type="button" data-fs-view="mobile" aria-pressed="false">Mobile</button></div>
+      <a class="g-btn g-btn-ghost sm" id="fs-open" href="form/" target="_blank" rel="noopener">View website <span aria-hidden="true">↗</span></a>
+      <button class="g-btn g-btn-primary sm" type="button" id="fs-close">Close</button>
+    </div>
+    <div class="fs-stage" id="fs-stage" data-view="desktop"></div>
+    </div>
+  </dialog>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

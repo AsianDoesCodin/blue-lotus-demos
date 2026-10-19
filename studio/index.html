@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>STUDIO — Yoga &amp; breathwork in Birmingham</title>
+  <meta name="description" content="Demo website by Blue Lotus Coding: STUDIO, a fictional yoga and wellness studio with online class booking.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%2355644a'/%3E%3Ccircle cx='32' cy='26' r='10' fill='%23efcdbb'/%3E%3Cpath d='M12 45c7-6 13-8 20-8s13 2 20 8' fill='none' stroke='%23fbf8f3' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#f5efe6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,100;1,9..144,300..600,100&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../shared/kit.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="skip" data-action="skip-to-content">Skip to content</button>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#/" aria-label="STUDIO home">STUDIO</a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="#/schedule" data-nav="/schedule">Schedule</a>
+        <a href="#/classes" data-nav="/classes">Classes</a>
+        <a href="#/pricing" data-nav="/pricing">Pricing</a>
+        <a href="#/about" data-nav="/about">About</a>
+      </nav>
+      <div class="header-actions">
+        <a class="my-bookings" href="#/bookings" data-nav="/bookings">My bookings <span class="badge" id="booking-count" hidden></span></a>
+        <a class="btn btn-primary" href="#/schedule">Book a class</a>
+      </div>
+      <button class="menu-toggle" data-action="menu" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+      <a href="#/schedule">Schedule</a>
+      <a href="#/classes">Classes</a>
+      <a href="#/pricing">Pricing</a>
+      <a href="#/about">About</a>
+      <a href="#/bookings">My bookings</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="wordmark" href="#/">STUDIO</a>
+        <p>Yoga, stretching and breathwork in a calm, light-filled room in Birmingham, Alabama.</p>
+      </div>
+      <div>
+        <h2>Practice</h2>
+        <a href="#/schedule">Class schedule</a>
+        <a href="#/classes">Class types</a>
+        <a href="#/pricing">Pricing &amp; passes</a>
+        <a href="#/bookings">My bookings</a>
+      </div>
+      <div>
+        <h2>Studio hours</h2>
+        <p>Mon–Fri 6 AM–8:30 PM<br>Sat 7:30 AM–1 PM<br>Sun 8:30 AM–6 PM</p>
+      </div>
+      <div>
+        <h2>Find us</h2>
+        <p>Birmingham, Alabama<br>Free parking behind the building<br>(205) 555-0167</p>
+      </div>
+    </div>
+    <div class="wrap footer-base"><span>© 2026 STUDIO Yoga &amp; Breath — demo website</span><span>Bookings on this site are samples only</span></div>
+  </footer>
+
+  <script src="../shared/kit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

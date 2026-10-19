@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>COMMON — Objects for everyday</title>
+  <meta name="description" content="Demo website by Blue Lotus Coding: COMMON, a fictional online store for ceramics, linen and glass.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23a9472a'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23fff' stroke-width='5'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="../shared/kit.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="skip" data-action="skip-to-content">Skip to content</button>
+  <p class="announcement">Free standard shipping on orders over $75</p>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <button class="menu-toggle" data-action="menu" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+      <nav class="nav-left" aria-label="Shop">
+        <a href="#/shop" data-nav="/shop">Shop all</a>
+        <a href="#/shop/ceramics" data-nav="/shop/ceramics">Ceramics</a>
+        <a href="#/shop/linen" data-nav="/shop/linen">Linen</a>
+        <a href="#/shop/glass" data-nav="/shop/glass">Glass</a>
+      </nav>
+      <a class="wordmark" href="#/" aria-label="COMMON home">COMMON</a>
+      <nav class="nav-right" aria-label="Store">
+        <a href="#/about" data-nav="/about">About</a>
+        <a href="#/shipping" data-nav="/shipping">Shipping</a>
+        <button class="bag-button" data-action="open-bag" aria-haspopup="dialog" aria-controls="bag">Bag <span class="bag-count" id="bag-count">0</span></button>
+      </nav>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+      <a href="#/shop">Shop all</a>
+      <a href="#/shop/ceramics">Ceramics</a>
+      <a href="#/shop/linen">Linen</a>
+      <a href="#/shop/glass">Glass</a>
+      <a href="#/about">About</a>
+      <a href="#/shipping">Shipping &amp; returns</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="wordmark" href="#/">COMMON</a>
+        <p>Ceramics, linen and glass for the table and the home, made by small studios and meant to be used every day.</p>
+      </div>
+      <div>
+        <h2>Shop</h2>
+        <a href="#/shop">Shop all</a>
+        <a href="#/shop/ceramics">Ceramics</a>
+        <a href="#/shop/linen">Linen</a>
+        <a href="#/shop/glass">Glass</a>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <a href="#/shipping">Shipping &amp; returns</a>
+        <a href="#/shipping">Care guide</a>
+        <a href="#/about">About COMMON</a>
+      </div>
+      <div class="footer-news" id="footer-news"></div>
+    </div>
+    <div class="wrap footer-base"><span>© 2026 COMMON Goods — demo store, no real orders</span><span>Prices in USD</span></div>
+  </footer>
+
+  <div class="bag-overlay" data-action="close-bag" hidden></div>
+  <aside class="bag" id="bag" role="dialog" aria-modal="true" aria-labelledby="bag-title" hidden>
+    <div class="bag-head"><h2 id="bag-title">Your bag</h2><button class="icon-btn" data-action="close-bag" aria-label="Close bag">×</button></div>
+    <div class="bag-body" id="bag-body"></div>
+  </aside>
+
+  <script src="../shared/kit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

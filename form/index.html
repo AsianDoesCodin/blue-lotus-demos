@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>FORM — Renovation &amp; interiors</title>
+  <meta name="description" content="Demo website by Blue Lotus Coding: FORM, a fictional renovation and interiors studio in Birmingham, Alabama.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23121212'/%3E%3Crect x='6' y='6' width='52' height='52' fill='%23ffc81a'/%3E%3Ctext x='32' y='48' font-family='Arial Narrow, Arial, sans-serif' font-weight='900' font-size='40' text-anchor='middle' fill='%23121212'%3EF%3C/text%3E%3C/svg%3E">
+  <meta name="theme-color" content="#efede6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@500&display=swap">
+  <link rel="stylesheet" href="../shared/kit.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="skip" data-action="skip-to-content">Skip to content</button>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#/" aria-label="FORM home"><span class="mark" aria-hidden="true"></span>FORM</a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="#/" data-nav="/">Home</a>
+        <a href="#/services" data-nav="/services">Services</a>
+        <a href="#/projects" data-nav="/projects">Projects</a>
+        <a href="#/about" data-nav="/about">About</a>
+        <a href="#/contact" data-nav="/contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="#/estimate">Get an estimate <span aria-hidden="true">→</span></a>
+      <button class="menu-toggle" data-action="menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="menu-lines" aria-hidden="true"></span><span class="visually-hidden">Menu</span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+      <a href="#/" data-nav="/">Home</a>
+      <a href="#/services" data-nav="/services">Services</a>
+      <a href="#/projects" data-nav="/projects">Projects</a>
+      <a href="#/about" data-nav="/about">About</a>
+      <a href="#/contact" data-nav="/contact">Contact</a>
+      <a class="btn btn-primary" href="#/estimate">Get an estimate</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="wordmark" href="#/"><span class="mark" aria-hidden="true"></span>FORM</a>
+        <p>Renovation and interiors for homes across the Birmingham area. Designed, priced and built by one team.</p>
+      </div>
+      <div>
+        <h2>Studio</h2>
+        <a href="#/services">Services</a>
+        <a href="#/projects">Projects</a>
+        <a href="#/about">About</a>
+        <a href="#/estimate">Get an estimate</a>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <p>Studio open Mon–Fri, 8 AM–5 PM<br>Saturday by appointment</p>
+        <p>Birmingham, Alabama</p>
+      </div>
+      <div>
+        <h2>Talk to us</h2>
+        <a href="#/contact">(205) 555-0142</a>
+        <a href="#/contact">Send a message</a>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <span>© 2026 FORM Renovation &amp; Interiors — demo website</span>
+      <span>Licensed &amp; insured in Alabama (sample content)</span>
+    </div>
+    <div class="wrap footer-giant" aria-hidden="true">FORM</div>
+  </footer>
+
+  <script src="../shared/kit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

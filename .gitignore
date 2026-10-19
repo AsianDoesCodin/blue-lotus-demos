@@ -1,0 +1,12 @@
+.vercel/
+.env*
+node_modules/
+
+# Source PNGs; the demos serve the WebP files in img/
+img-src/
+
+# Studios for real client businesses use the owners' own photos, so they stay out of the public repo
+blueberry-gal/
+helecias/
+karterkitchen/
+sanders/

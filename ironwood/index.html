@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Ironwood Plumbing &amp; Air — Plumbing, heating &amp; cooling in Birmingham, AL</title>
+  <meta name="description" content="Demo website by Blue Lotus Coding: Ironwood Plumbing & Air, a fictional family-owned Birmingham plumbing, heating and cooling company with online booking, upfront pricing and live technician tracking.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d1b33'/%3E%3Cpath d='M32 9c8.5 10.2 15.4 18.7 15.4 27.2a15.4 15.4 0 0 1-30.8 0C16.6 27.7 23.5 19.2 32 9z' fill='%231f6fff'/%3E%3Cpath d='M32 30c3.5 4.5 6.6 8 6.6 11.5a6.6 6.6 0 0 1-13.2 0c0-3.5 3.1-7 6.6-11.5z' fill='%23ff7a1a'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#0d1b33">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="../shared/kit.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="skip" data-action="skip-to-content">Skip to content</button>
+  <header class="site-header">
+    <div class="alert-strip">
+      <div class="wrap alert-inner">
+        <p><span class="live-dot" aria-hidden="true"></span><strong>24/7 emergency<span class="alert-word"> service</span></strong><span class="alert-extra">· A real person answers, day or night</span></p>
+        <a class="alert-call" href="tel:+12055550148"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Call <span class="alert-num">(205) 555-0148</span></a>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <div class="wrap nav-inner">
+        <a class="brand" href="#/" aria-label="Ironwood Plumbing &amp; Air, home">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="11" fill="#0d1b33"/><path d="M20 6.5c5.3 6.4 9.6 11.7 9.6 17a9.6 9.6 0 0 1-19.2 0c0-5.3 4.3-10.6 9.6-17z" fill="#1f6fff"/><path d="M20 19.5c2.2 2.8 4.1 5 4.1 7.2a4.1 4.1 0 0 1-8.2 0c0-2.2 1.9-4.4 4.1-7.2z" fill="#ff7a1a"/></svg>
+          <span class="brand-text"><strong>Ironwood</strong><small>Plumbing &amp; Air</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Main">
+          <a href="#/services" data-nav="/services">Services</a>
+          <a href="#/pricing" data-nav="/pricing">Pricing</a>
+          <a href="#/club" data-nav="/club">Ironwood Club</a>
+          <a href="#/emergency" data-nav="/emergency">Emergency help</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="visits-link" href="#/visits" data-nav="/visits" id="visits-link" hidden>My visits <span class="count" id="visits-count" hidden></span></a>
+          <a class="nav-phone" href="tel:+12055550148"><span>Call 24/7</span><strong>(205) 555-0148</strong></a>
+          <a class="btn btn-primary" href="#/book" data-nav="/book">Book service</a>
+        </div>
+        <button class="menu-toggle" data-action="menu" aria-expanded="false" aria-controls="mobile-nav"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menu</button>
+      </div>
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+        <a href="#/services">Services</a>
+        <a href="#/pricing">Pricing &amp; estimator</a>
+        <a href="#/club">Ironwood Club</a>
+        <a href="#/emergency">Emergency help</a>
+        <a href="#/visits" id="m-visits" hidden>My visits</a>
+        <a class="mobile-book" href="#/book">Book service</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-top">
+      <div class="footer-brand">
+        <a class="brand is-light" href="#/" aria-label="Ironwood Plumbing &amp; Air, home">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="11" fill="#1c335e"/><path d="M20 6.5c5.3 6.4 9.6 11.7 9.6 17a9.6 9.6 0 0 1-19.2 0c0-5.3 4.3-10.6 9.6-17z" fill="#1f6fff"/><path d="M20 19.5c2.2 2.8 4.1 5 4.1 7.2a4.1 4.1 0 0 1-8.2 0c0-2.2 1.9-4.4 4.1-7.2z" fill="#ff7a1a"/></svg>
+          <span class="brand-text"><strong>Ironwood</strong><small>Plumbing &amp; Air</small></span>
+        </a>
+        <p>Family-owned plumbing, heating and cooling for Birmingham and over the mountain since 2004.</p>
+        <a class="footer-phone" href="tel:+12055550148">(205) 555-0148</a>
+        <p class="footer-small">Licensed, insured and background-checked technicians. 1-year labor warranty on every repair.</p>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <a href="#/services/plumbing">Plumbing</a>
+        <a href="#/services/water-heaters">Water heaters</a>
+        <a href="#/services/drains">Drains</a>
+        <a href="#/services/ac">Air conditioning</a>
+        <a href="#/services/heating">Heating</a>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <a href="#/book">Book service</a>
+        <a href="#/pricing">Pricing &amp; estimator</a>
+        <a href="#/club">Ironwood Club</a>
+        <a href="#/emergency">Emergency help</a>
+        <a href="#/visits">My visits</a>
+      </div>
+      <div>
+        <h2>Hours</h2>
+        <p>Phones answered 24/7<br>Mon–Fri 8 AM–6 PM<br>Sat 8 AM–4 PM<br>Sun: emergencies only</p>
+        <p class="footer-small">Serving Birmingham, Homewood, Mountain Brook, Vestavia Hills, Hoover and Pelham.</p>
+      </div>
+    </div>
+    <div class="wrap footer-base"><span>© 2026 Ironwood Plumbing &amp; Air · Birmingham, AL · demo website</span><span>Reviews are samples. Photos are AI-generated for this demo.</span></div>
+  </footer>
+
+  <nav class="dock" aria-label="Quick actions">
+    <a class="dock-call" href="tel:+12055550148"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Call</a>
+    <a class="dock-book" href="#/book"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4.5" width="18" height="16.5" rx="2.5"/><path d="M16 2.5v4M8 2.5v4M3 10h18"/></svg>Book</a>
+  </nav>
+
+  <script src="../shared/kit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

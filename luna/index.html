@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Luna Taquería — Tacos, birria &amp; bowls in Avondale, Birmingham</title>
+  <meta name="description" content="Demo website by Blue Lotus Coding: Luna Taquería, a fictional neighborhood taquería in Birmingham, Alabama with online ordering for delivery and pickup, live order tracking and catering requests.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23e5412d'/%3E%3Cpath d='M39 11a22 22 0 1 0 15 35A18 18 0 0 1 39 11z' fill='%23ffb22e'/%3E%3Ccircle cx='44' cy='20' r='3' fill='%23fff4e6'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#fff4e6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap">
+  <link rel="stylesheet" href="../shared/kit.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="skip" data-action="skip-to-content">Skip to content</button>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#/" aria-label="Luna Taquería home">
+        <svg class="logo-moon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#e5412d"/><path d="M24 7a14 14 0 1 0 10 22A11.5 11.5 0 0 1 24 7z" fill="#ffb22e"/></svg>
+        <span class="logo-word">Luna<small>Taquería</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="#/menu" data-nav="/menu">Menu</a>
+        <a href="#/catering" data-nav="/catering">Catering</a>
+        <a href="#/about" data-nav="/about">Visit us</a>
+        <a href="#/orders" data-nav="/orders">Your orders</a>
+      </nav>
+      <div class="header-actions">
+        <a class="status-pill" id="status-pill" href="#/about" aria-live="polite"></a>
+        <button class="cart-button" id="cart-button" data-action="open-cart" aria-haspopup="dialog" aria-controls="cart-drawer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="cart-label">Your order</span>
+          <span class="cart-count" id="cart-count" hidden>0</span>
+        </button>
+        <button class="menu-toggle" data-action="menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="menu-bars" aria-hidden="true"></span><span class="visually-hidden">Menu</span>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+      <a href="#/menu">Menu</a>
+      <a href="#/catering">Catering</a>
+      <a href="#/about">Visit us</a>
+      <a href="#/orders">Your orders</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="footer-wave" aria-hidden="true"></div>
+    <div class="footer-body">
+      <div class="wrap footer-grid">
+        <div class="footer-brand">
+          <a class="logo logo-light" href="#/" aria-label="Luna Taquería home">
+            <svg class="logo-moon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#e5412d"/><path d="M24 7a14 14 0 1 0 10 22A11.5 11.5 0 0 1 24 7z" fill="#ffb22e"/></svg>
+            <span class="logo-word">Luna<small>Taquería</small></span>
+          </a>
+          <p>Family recipes and tortillas pressed every morning, a few blocks from Avondale Park.</p>
+        </div>
+        <div>
+          <h2>Order</h2>
+          <a href="#/menu">Full menu</a>
+          <a href="#/orders">Your orders</a>
+          <a href="#/catering">Catering</a>
+        </div>
+        <div>
+          <h2>Hours</h2>
+          <p>Mon–Thu 11 AM–9 PM<br>Fri–Sat 11 AM–10 PM<br>Sun 11 AM–8 PM</p>
+          <p class="footer-fine">Last delivery orders 30 minutes before close.</p>
+        </div>
+        <div>
+          <h2>Find us</h2>
+          <p>412 Marigold Ave S<br>Avondale, Birmingham, AL 35222<br><a href="tel:+12055550119">(205) 555-0119</a></p>
+        </div>
+      </div>
+      <div class="wrap footer-base">
+        <span>© 2026 Luna Taquería — demo website</span>
+        <span>Orders and requests on this site are samples; nothing is charged.</span>
+        <span>Photos are AI-generated for this demo.</span>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="drawer" id="cart-drawer" aria-labelledby="drawer-title">
+    <div class="drawer-panel" id="drawer-panel"></div>
+  </dialog>
+
+  <script src="../shared/kit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
