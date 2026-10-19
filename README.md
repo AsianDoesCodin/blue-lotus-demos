@@ -4,7 +4,7 @@
 
 ![A mosaic of the ten demo sites](docs/cover.jpg)
 
-Ten complete, clickable demo sites, each for a different kind of business and each in its own design language. I show these to small-business owners instead of mockups. Each demo has a working core flow that runs in the browser, such as an estimate, a checkout, a class booking or a food order.
+Ten complete, clickable demo sites, each for a different kind of business and each in its own design language. Blue Lotus Coding shows these to small-business owners instead of mockups. Each demo has a working core flow that runs in the browser, such as an estimate, a checkout, a class booking or a food order.
 
 > Every business, person, price and address is fictional. Photos were generated with AI. The AI assistant's answers are scripted, and the page says so.
 
@@ -50,4 +50,4 @@ Built by [Joshua Sajor](https://joshua-sajor-portfolio.vercel.app) for [Blue Lot
 
 ---
 
-Code and design © 2026 Joshua Sajor / Blue Lotus Coding. Shared so you can see how it's built. Please don't republish the designs or images as your own.
+Code and design © 2026 Blue Lotus Coding. Shared so you can see how it's built. Please don't republish the designs or images as your own.
